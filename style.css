@@ -218,13 +218,13 @@ html, body{
 }
 
 .primary-button{
-    width: 100%;
+    width: 90%;
     padding: var(--mg2);
     background-color: var(--primary-color);
 }
 
 .secondary-button{
-    width: 100%;
+    width: 90%;
     padding: var(--mg2);
     background-color: var(--secondary-color);
     color: var(--primary-color);
