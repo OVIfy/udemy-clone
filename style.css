@@ -120,7 +120,7 @@ html, body{
 }
                                     /* card */
 .card{
-    min-width: 300px;
+    min-width: 200px;
 }
 .card-img{
     min-height: 200px;
@@ -324,11 +324,19 @@ footer > ul > li{
 
 
                                                             /* media queries */
-
-@media (min-width: 900px) {
+@media (min-width: 310px){
+    .card{
+        width: 300px;
+    }
+} 
+@media (min-width: 500px){
     .card{
         width: 400px;
     }
+}                                                            
+
+@media (min-width: 900px) {
+    
 
     .featured-cont{
         grid-template-columns: repeat(4, 1fr);
@@ -390,6 +398,11 @@ footer > ul > li{
 
     .instructor-card-contents{
         text-align: left;
+        width: 50%;
+    }
+
+    .instructor-card-img{
+        width: 50%;
     }
 
     .front-2{
@@ -399,14 +412,16 @@ footer > ul > li{
     .front-1{
         order: 1;
     }
+
+    .child{
+        width: 1200px;
+    }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1500px){
     .card{
         width: 400px;
     }
 
-    .child{
-        width: 1700px;
-    }
+    
 }
