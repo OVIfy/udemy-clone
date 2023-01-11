@@ -394,6 +394,7 @@ footer > ul > li{
 @media (min-width: 1200px){
     .instructor-card{
         flex-direction: row;
+        width: 900px;
     }
 
     .instructor-card-contents{
